@@ -52,6 +52,7 @@ button {
     align-content: center;
     justify-content: center;
     gap: 10px;
+    object-fit: cover;
 }
 
 .awesome {
