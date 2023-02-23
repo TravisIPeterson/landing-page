@@ -70,3 +70,35 @@ button {
     color: #E5E7EB;
     text-align: center;
 }
+
+.info {
+    margin: 15%;
+}
+
+.info-top {
+    columns: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.empty {
+    border-color: #3882F6;
+    border-style: solid;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 10%;
+}
+
+.quote-section {
+    
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15%;
+    gap: 7%;
+    text-align: center;
+}
