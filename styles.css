@@ -83,12 +83,12 @@ button {
     margin-bottom: 5%;
 }
 
-.empty {
-    border-color: #3882F6;
-    border-style: solid;
+.images {
     height: 12vw;
     width: 12vw;
     border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 2%;
 }
 
 .info-bottom {
@@ -97,6 +97,11 @@ button {
     padding: 0 15%;
     gap: 7%;
     text-align: center;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-section {
